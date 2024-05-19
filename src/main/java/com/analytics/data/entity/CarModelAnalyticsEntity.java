@@ -16,7 +16,7 @@ public class CarModelAnalyticsEntity {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    private String brand;
+    private String model;
 
     private Long posts;
 }
